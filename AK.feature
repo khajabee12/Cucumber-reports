@@ -1,4 +1,5 @@
 Feature: Web application
+@AP
 Scenario Outline: Cucumberautomation testing
 
 Given Openapplication 
@@ -7,12 +8,11 @@ Then enterpassword "<password>"
 And click on loginbutton
 Then closeapplicaion
 
-
 Examples:
-|username   |  password    |
-|khajabee   |  khaja     |
-|AKfeature  |   AK     |
-|khajabee   |  ar  |
+|   username   |  password   |
+|   khajabee   |  khaja      |
+|   jhgfgh     |  uydsdfg    |
+|   kjhgcg     |  akjh       |
 
 
 
